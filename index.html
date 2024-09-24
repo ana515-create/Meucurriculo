@@ -1,79 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site com Bootstrap</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Meu Curriculo</title>
+
 </head>
 <body>
-  <div class="container">
-   <header> 
-    <!-- Aqui vai o menu de navegação -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Sobre mim</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Cursos</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+    <div class="container">
+        <div class="header text-center">
+            <h1>Ana Beatriz Gilarde Portela</h1>
+            <p>Gmail: anabeatrizportela897@gmail.com | Telefone: (11) 95323-9210</p>
         </div>
-      </div>
-    </nav>
-    <div class="card mb-3" style="max-width: 540px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="" class="jpg" alt="...">
-        </div>
-        
-    </div>              
-   </header>
-   <main>
-    <section>
-      <!-- Aqui vai um breve comentario sobre mim -->
-    </section>
-    <section>
-      <!-- Aqui vão aparecer 4 cards mostrando os cursos -->
 
-    <section>
-      <!-- Aqui vou listar as minhas principais competencias socio-emocionais -->
-      <!-- vou usar um componente chamado Accordion do bootstrap -->
-    </section>
-    <section>
-      <!-- Aqui vai um formulario de contato -->
-    </section>
-   </main>
-  </div>
-  <footer>
-    <!-- Informações gerais sobre o desenvolvimento deste site -->
-   </footer>
-      <script src="js/bootstrap.js"></script>
+        <div class="photo-section">
+            <img src="img/WhatsApp Image 2024-09-23 at 23.03.27.jpeg" alt="Foto de perfil" class="profile-image">
+        </div>
+
+        <h2 class="section-title">Sobre mim</h2>
+          Meu nome é Ana Beatriz Gilarde Portela, atualmente tenho 16 anos. Sou estudante e busco oportunidades de emprego</p>
+
+        <h2 class="section-title">Educação</h2>
+        <ul>
+            <li><strong>Ensino Fundamental- Escola Municipal Engenheiro Calos Rohm</strong> (2023)</li>
+            <li><strong>Ensino Médio Habilitado com Tecnico em Informática Para Internet- ETEC Professora Cristina Medeiro  </strong> (Cursando)</li>
+        </ul>
+
+        <h2 class="section-title">Certificações</h2>
+        <ul>
+            <li><i class="fas fa-certificate icon"></i> Robótica Modolo 1- Sesi(2024)</li>
+            <li><i class="fas fa-certificate icon"></i> Certificação 2 - Descrição</li>
+        </ul>
+
+        <h2 class="section-title">Idiomas</h2>
+        <ul>
+            <li>Português (Nativo)</li>
+            <li>Inglês (Básico)</li>
+        </ul>
+
+        <div class="footer">
+            <p>&copy; 2024 Ana Beatriz Gilarde Portela.</p>
+        </div>
+    </div>
 </body>
 </html>
